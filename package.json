@@ -1,0 +1,20 @@
+{
+  "name": "twitch",
+  "version": "1.0.0",
+  "description": "A twitch paint bot",
+  "main": "src",
+  "scripts": {
+    "start": "nodemon --ignore './twitch-app/' --exec babel-node src/index.js"
+  },
+  "author": "jmanosu",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "readline": "^1.3.0",
+    "tmi.js": "^1.8.3"
+  }
+}
